@@ -1,0 +1,25 @@
+---
+title: "GISER R Workshop"
+author: "Peter Crank"
+date: "January 27, 2018"
+output: html_document
+---
+
+## Importing Libraries
+```{r}
+library(data.table)
+library(tidyr)
+library(dplyr)
+library(abind)
+```
+
+```{bash}
+cd "/Users/petercrank/Google Drive/Presentations/R_Workshop/Data"
+cd "KPHX_Phoenix"
+ftp
+open ftp.ncdc.noaa.gov
+anonymous
+pjcrank@asu.edu
+cd pub/data/noaa/1980
+
+```
